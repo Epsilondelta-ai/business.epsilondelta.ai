@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    
+    {{ block "head" . }}{{ end }}
+</head>
+<body>
+    {{ block "header" . }}{{ end }}
+    
+    <div class="site-content">
+        {{ block "main" . }}{{ end }}
+    </div>
+    
+    {{ block "footer" . }}{{ end }}
+    {{ block "scripts" . }}{{ end }}
+</body>
+</html>
+
