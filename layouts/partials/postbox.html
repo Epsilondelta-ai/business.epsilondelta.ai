@@ -1,5 +1,8 @@
 <!-- begin post -->
-{{ $author := index .Site.Data.authors .Params.author }}
+{{ $author := "" }}
+{{ if .Params.author }}
+  {{ $author = index .Site.Data.authors .Params.author }}
+{{ end }}
 
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">

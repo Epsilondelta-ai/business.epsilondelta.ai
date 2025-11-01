@@ -1,5 +1,8 @@
 <!-- begin post -->
-{{ $author := index .Site.Data.authors .Params.author }}
+{{ $author := "" }}
+{{ if .Params.author }}
+  {{ $author = index .Site.Data.authors .Params.author }}
+{{ end }}
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
