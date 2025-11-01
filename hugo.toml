@@ -1,10 +1,12 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Mediumish"
-theme = ""
-paginate = 6
 enableRobotsTXT = true
 enableEmoji = true
+
+# Pagination
+[pagination]
+  pagerSize = 6
 
 [params]
   name = "Mediumish"
