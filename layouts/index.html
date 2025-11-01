@@ -10,7 +10,7 @@
     <div class="row">
 
     {{ range where .Site.RegularPages "Type" "posts" }}
-        {{ if .Params.featured }}
+        {{ if and .Params.featured (not .Params.hidden) }}
             {{ partial "featuredbox.html" . }}
         {{ end }}
     {{ end }}
@@ -29,8 +29,11 @@
 
     <div class="row listrecent">
 
-        {{ range .Paginator.Pages }}
-        {{ partial "postbox.html" . }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+        {{ range $paginator.Pages }}
+            {{ if not .Params.hidden }}
+                {{ partial "postbox.html" . }}
+            {{ end }}
         {{ end }}
 
     </div>
