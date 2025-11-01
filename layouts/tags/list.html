@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="row listrecent">
+{{ range .Site.Taxonomies.tags }}
+<div class="section-title col-md-12 mt-4">
+<h2 id="{{ .Page.Title | urlize }}">Tag <span class="text-capitalize">{{ .Page.Title }}</span></h2>
+</div>
+{{ range .Pages }}
+{{ partial "postbox.html" . }}
+{{ end }}
+{{ end }}
+</div>
+
+{{ end }}
+

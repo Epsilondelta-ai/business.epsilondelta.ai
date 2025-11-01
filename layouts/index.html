@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ if .IsHome }}
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+    <div class="row">
+
+    {{ range where .Site.RegularPages "Type" "posts" }}
+        {{ if .Params.featured }}
+            {{ partial "featuredbox.html" . }}
+        {{ end }}
+    {{ end }}
+
+    </div>
+</section>
+{{ end }}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+        <h2><span>All Stories</span></h2>
+    </div>
+
+    <div class="row listrecent">
+
+        {{ range .Paginator.Pages }}
+        {{ partial "postbox.html" . }}
+        {{ end }}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {{ partial "pagination.html" . }}
+</span>
+</div>
+
+{{ end }}
+
