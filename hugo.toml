@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://business.epsilondelta.ai/"
 languageCode = "en-us"
 title = "Mediumish"
 enableRobotsTXT = true
