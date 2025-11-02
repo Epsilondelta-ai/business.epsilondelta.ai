@@ -1,6 +1,6 @@
 baseURL = "https://business.epsilondelta.ai/"
-languageCode = "en-us"
-title = "Mediumish"
+languageCode = "ko-kr"
+title = "엡실론델타의 시시콜콜 비즈니스"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -9,14 +9,14 @@ enableEmoji = true
   pagerSize = 6
 
 [params]
-  name = "Mediumish"
-  description = "Jekyll template, Medium styled, free for bloggers."
-  logo = "images/logo.png"
-  favicon = "images/logo.png"
+  name = "시시콜콜 비즈니스"
+  description = "엡실론델타가 비즈니스를 만들기 위한 모든 사소하지만 소중한 이야기"
+  logo = "images/epsilondelta_symbol_v3.png"
+  favicon = "images/epsilondelta_symbol_v3.png"
   
   # External Services
-  googleAnalytics = "UA-46278016-1"
-  disqus = "demowebsite"
+  googleAnalytics = "G-XSNXBDSF2E"
+  disqus = "business-epsilondelta"
   mailchimpList = "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
   
   # Features
