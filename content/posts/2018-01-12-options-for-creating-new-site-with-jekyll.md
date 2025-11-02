@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "Options for creating a new site with Jekyll"
-author: john
+authors: juunini
 categories: [ Jekyll, tutorial ]
 image: images/13.jpg
 ---

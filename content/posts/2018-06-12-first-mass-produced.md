@@ -2,7 +2,7 @@
 
 date: 2018-06-12
 title:  "The first mass-produced book to deviate from a rectilinear format"
-author: geoff
+authors: geoff
 categories: [ Jekyll, tutorial ]
 image: images/17.jpg
 ---

@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "Press and education"
-author: geoff
+authors: geoff
 categories: [ Jekyll, tutorial ]
 image: images/7.jpg
 ---

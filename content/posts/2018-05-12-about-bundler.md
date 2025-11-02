@@ -2,7 +2,7 @@
 
 date: 2018-05-12
 title:  "About Bundler"
-author: geoff
+authors: geoff
 categories: [ Jekyll ]
 image: images/2.jpg
 rating: 3

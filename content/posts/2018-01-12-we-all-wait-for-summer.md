@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "We all wait for summer"
-author: john
+authors: juunini
 categories: [ Jekyll, tutorial ]
 image: images/5.jpg
 rating: .5

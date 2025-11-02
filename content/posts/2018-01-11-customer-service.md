@@ -2,7 +2,7 @@
 
 date: 2018-01-11
 title:  "Inception Movie"
-author: john
+authors: juunini
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
 image: images/11.jpg
@@ -21,7 +21,7 @@ It's actually really simple! Add the rating in your YAML front matter. It also s
 ---
 
 title:  "Inception Movie"
-author: john
+authors: juunini
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
 image: images/11.jpg

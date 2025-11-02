@@ -13,8 +13,8 @@
 
         <!-- Post -->
         {{ $author := "" }}
-        {{ if .Params.author }}
-          {{ $authorTerm := index .Site.Taxonomies.authors (urlize .Params.author) }}
+        {{ if .Params.authors }}
+          {{ $authorTerm := index .Site.Taxonomies.authors (urlize .Params.authors) }}
           {{ if $authorTerm }}
             {{ $author = $authorTerm.Page }}
           {{ end }}

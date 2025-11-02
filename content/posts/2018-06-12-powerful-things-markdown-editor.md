@@ -2,7 +2,7 @@
 
 date: 2018-06-12
 title:  "Powerful things you can do with the Markdown editor"
-author: geoff
+authors: geoff
 categories: [ Jekyll, tutorial ]
 image: images/16.jpg
 ---
