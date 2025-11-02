@@ -12,24 +12,34 @@
         </div>
 
         <!-- Post -->
-        {{ $author := index .Site.Data.authors .Params.author }}
+        {{ $author := "" }}
+        {{ if .Params.author }}
+          {{ $authorTerm := index .Site.Taxonomies.authors (urlize .Params.author) }}
+          {{ if $authorTerm }}
+            {{ $author = $authorTerm.Page }}
+          {{ end }}
+        {{ end }}
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
                 <!-- Author Box -->
-                {{ if .Params.author }}
+                {{ if $author }}
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
-                        {{ if $author.avatar }}
-                        <img class="author-thumb" src="{{ $author.avatar | relURL }}" alt="{{ $author.display_name }}">
-                        {{ else }}
-                        <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ $author.gravatar }}?s=250&d=mm&r=x" alt="{{ $author.display_name }}">
+                        {{ $profileImg := $author.Resources.GetMatch "profile.*" }}
+                        {{ if $profileImg }}
+                        <img class="author-thumb" src="{{ $profileImg.RelPermalink }}" alt="{{ $author.Title }}">
+                        {{ else if $author.Params.gravatar }}
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ $author.Params.gravatar }}?s=250&d=mm&r=x" alt="{{ $author.Title }}">
                         {{ end }}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ $author.web }}">{{ $author.display_name }}</a><a target="_blank" href="{{ $author.twitter }}" class="btn follow">Follow</a>
-                        <span class="author-description">{{ $author.description }}</span>
+                        <a class="link-dark" href="{{ $author.RelPermalink }}">{{ $author.Title }}</a>
+                        {{ if $author.Params.twitter }}
+                        <a target="_blank" href="{{ $author.Params.twitter }}" class="btn follow">Follow</a>
+                        {{ end }}
+                        <span class="author-description">{{ $author.Params.description }}</span>
                     </div>
                 </div>
                 {{ end }}
@@ -160,7 +170,7 @@
   },
   "author": {
     "@type": "Person",
-    "name": "{{ $author.display_name }}"
+    "name": "{{ if $author }}{{ $author.Title }}{{ end }}"
   },
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "reviewRating": {

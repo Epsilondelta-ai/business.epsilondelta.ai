@@ -2,7 +2,7 @@
 
 date: 2018-01-11
 title:  "Let's test spoilers"
-author: sal
+author: geoff
 categories: [ Jekyll, tutorial ]
 image: images/12.jpg
 featured: true

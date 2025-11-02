@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "Red Riding Hood"
-author: sal
+author: geoff
 categories: [ Jekyll, tutorial ]
 image: images/1.jpg
 ---

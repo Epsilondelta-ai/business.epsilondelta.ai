@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<section class="recent-posts">
+    <div class="section-title">
+        <h2><span>{{ .Title }}</span></h2>
+    </div>
+    
+    <div class="article-post mb-5">
+        {{ .Content }}
+    </div>
+
+    <div class="row listrecent">
+        {{ range .Site.Taxonomies.authors }}
+        <div class="col-lg-6 col-md-6 mb-30px">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center mb-3 mb-md-0">
+                            {{ $authorPage := .Page }}
+                            {{ $profileImg := $authorPage.Resources.GetMatch "profile.*" }}
+                            {{ if $profileImg }}
+                            <a href="{{ $authorPage.RelPermalink }}">
+                                <img class="author-thumb rounded-circle" src="{{ $profileImg.RelPermalink }}" alt="{{ $authorPage.Title }}" style="width: 100px; height: 100px; object-fit: cover;">
+                            </a>
+                            {{ else if $authorPage.Params.gravatar }}
+                            <a href="{{ $authorPage.RelPermalink }}">
+                                <img class="author-thumb rounded-circle" src="https://www.gravatar.com/avatar/{{ $authorPage.Params.gravatar }}?s=200&d=mm&r=x" alt="{{ $authorPage.Title }}" style="width: 100px; height: 100px; object-fit: cover;">
+                            </a>
+                            {{ end }}
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="card-title">
+                                <a class="text-dark" href="{{ $authorPage.RelPermalink }}">{{ $authorPage.Title }}</a>
+                            </h4>
+                            <p class="card-text">{{ $authorPage.Params.description }}</p>
+                            <p class="text-muted">
+                                <small>{{ .Count }} {{ if eq .Count 1 }}story{{ else }}stories{{ end }}</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+{{ end }}
+

@@ -1,0 +1,87 @@
+{{ define "main" }}
+
+<!-- Author Profile Section -->
+<section class="author-profile mb-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            {{ $profileImg := .Page.Resources.GetMatch "profile.*" }}
+                            {{ if $profileImg }}
+                            <img class="author-thumb rounded-circle mb-3" src="{{ $profileImg.RelPermalink }}" alt="{{ .Title }}" style="width: 150px; height: 150px; object-fit: cover;">
+                            {{ else if .Params.gravatar }}
+                            <img class="author-thumb rounded-circle mb-3" src="https://www.gravatar.com/avatar/{{ .Params.gravatar }}?s=300&d=mm&r=x" alt="{{ .Title }}" style="width: 150px; height: 150px; object-fit: cover;">
+                            {{ end }}
+                        </div>
+                        <div class="col-md-9">
+                            <h1 class="mb-3">{{ .Title }}</h1>
+                            <p class="lead">{{ .Params.description }}</p>
+                            
+                            <div class="author-meta">
+                                {{ if .Params.email }}
+                                <p class="mb-1">
+                                    <i class="fas fa-envelope"></i> 
+                                    <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                                </p>
+                                {{ end }}
+                                
+                                {{ if .Params.web }}
+                                <p class="mb-1">
+                                    <i class="fas fa-globe"></i> 
+                                    <a href="{{ .Params.web }}" target="_blank">{{ .Params.web }}</a>
+                                </p>
+                                {{ end }}
+                                
+                                {{ if .Params.twitter }}
+                                <p class="mb-1">
+                                    <i class="fab fa-twitter"></i> 
+                                    <a href="{{ .Params.twitter }}" target="_blank">Twitter</a>
+                                </p>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {{ if .Content }}
+                    <div class="row mt-4">
+                        <div class="col-md-12">
+                            <hr>
+                            <div class="article-post">
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stories by Author Section -->
+<section class="recent-posts">
+    <div class="section-title">
+        <h2><span>Stories by {{ .Title }}</span></h2>
+    </div>
+
+    <div class="row listrecent">
+        {{ range .Pages }}
+        {{ partial "postbox.html" . }}
+        {{ end }}
+    </div>
+</section>
+
+<!-- Pagination -->
+{{ if gt .Paginator.TotalPages 1 }}
+<div class="bottompagination">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {{ partial "pagination.html" . }}
+    </span>
+</div>
+{{ end }}
+
+{{ end }}
+

@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "Tree of Codes"
-author: sal
+author: geoff
 categories: [ Jekyll, tutorial ]
 image: images/9.jpg
 ---

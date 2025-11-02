@@ -2,7 +2,7 @@
 
 date: 2018-06-12
 title:  "Accumulated experience of social living"
-author: sal
+author: geoff
 categories: [ Jekyll, tutorial ]
 image: images/15.jpg
 ---

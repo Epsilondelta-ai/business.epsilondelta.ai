@@ -13,6 +13,7 @@ enableEmoji = true
   description = "엡실론델타가 비즈니스를 만들기 위한 모든 사소하지만 소중한 이야기"
   logo = "images/epsilondelta_symbol_v3.png"
   favicon = "images/epsilondelta_symbol_v3.png"
+  company = "주식회사 엡실론델타"
   
   # External Services
   googleAnalytics = "G-XSNXBDSF2E"
@@ -25,27 +26,6 @@ enableEmoji = true
   adsenseDataAdClient = "ca-pub-3412143450191416"
   adsenseDataAdSlot = "1363087678"
 
-# Authors configuration
-[params.authors]
-  [params.authors.sal]
-    name = "Sal"
-    display_name = "Sal"
-    gravatar = "e56154546cf4be74e393c62d1ae9f9d4"
-    email = "wowthemesnet@gmail.com"
-    web = "https://www.wowthemes.net"
-    twitter = "https://twitter.com/wowthemesnet"
-    description = "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  
-  [params.authors.john]
-    name = "John"
-    display_name = "John"
-    avatar = "images/avatar.png"
-    gravatar = "b1cc14991db7a456fcd761680bbc8f81"
-    email = "wowthemesnet@gmail.com"
-    web = "https://www.wowthemes.net"
-    twitter = "https://twitter.com/wowthemesnet"
-    description = "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
 # Permalinks
 [permalinks]
   posts = "/:title/"
@@ -54,6 +34,7 @@ enableEmoji = true
 [taxonomies]
   category = "categories"
   tag = "tags"
+  author = "authors"
 
 # Outputs
 [outputs]
@@ -81,7 +62,12 @@ enableEmoji = true
   weight = 1
 
 [[menu.main]]
+  name = "Authors"
+  url = "/authors"
+  weight = 2
+
+[[menu.main]]
   name = "About"
   url = "/about"
-  weight = 2
+  weight = 3
 

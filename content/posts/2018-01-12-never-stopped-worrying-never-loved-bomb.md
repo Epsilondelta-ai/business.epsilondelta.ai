@@ -2,7 +2,7 @@
 
 date: 2018-01-12
 title:  "Never stopped worrying or loving the bomb"
-author: sal
+author: geoff
 categories: [ Jekyll ]
 image: images/14.jpg
 ---
