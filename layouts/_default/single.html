@@ -35,11 +35,13 @@
                         {{ end }}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a class="link-dark" href="{{ $author.RelPermalink }}">{{ $author.Title }}</a>
-                        {{ if $author.Params.twitter }}
-                        <a target="_blank" href="{{ $author.Params.twitter }}" class="btn follow">Follow</a>
-                        {{ end }}
-                        <span class="author-description">{{ $author.Params.description }}</span>
+                        <div>
+                            <h5 class="d-inline font-weight-bold"><a class="link-dark" href="{{ $author.RelPermalink }}">{{ $author.Title }}</a></h5>
+                            {{ if $author.Params.twitter }}
+                            <a target="_blank" href="{{ $author.Params.twitter }}" class="btn follow">Follow</a>
+                            {{ end }}
+                        </div>
+                        <div class="author-description">{{ $author.Params.description }}</div>
                     </div>
                 </div>
                 {{ end }}
