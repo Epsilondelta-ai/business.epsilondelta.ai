@@ -1,12 +1,14 @@
 +++
 title = 'Geoff Yoon'
-description = '엡실론델타 대표 / AI를 현실세계에 녹여내는 엔지니어 / 이게 다 내가 너무 귀여운 탓이지 뭐'
+description = '엡실론델타 대표 / 기술을 product에 녹여 현실세계의 문제와 연결하는 problem solver'
 email = 'geoff.yoon@epsilondelta.ai'
 web = 'https://epsilondelta.ai'
 twitter = ''
 +++
 
-AI 엔지니어로 커리어를 시작하여, MLops 분야에 전문성을 가지고 있습니다. 최근에는 LLM 서비스개발과 Multi-Agent에 관심이 많으며, LLMops또한 관심이 많습니다.
+AI 엔지니어 출신입니다.
+수많은 실패를 맛보고 배우며, 엡실론델타를 운영하고 있습니다.
+사업개발, 그로스해킹, 지표분석에 관심이 많습니다.
 
 ## 링크
 
