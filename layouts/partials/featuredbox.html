@@ -11,12 +11,12 @@
         <div class="row h-100">
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
-                    <div class="wrapthumbnail">
+                    <div class="wrapthumbnail" style="max-height: 280px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
                         <a href="{{ .RelPermalink }}">
                             {{ if eq .Site.Params.lazyImages "enabled" }}
-                            <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ .Params.image | relURL }}">
+                            <img class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ .Params.image | relURL }}" style="max-height: 280px; width: 100%; object-fit: cover;">
                             {{ else }}
-                            <img class="featured-box-img-cover" src="{{ .Params.image | relURL }}">
+                            <img class="featured-box-img-cover" src="{{ .Params.image | relURL }}" style="max-height: 280px; width: 100%; object-fit: cover;">
                             {{ end }}
                         </a>
                     </div>
