@@ -8,7 +8,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 가로수길, 모란역, 노인관찰, AI네이티브, 체험경제, 상권분석, 맛집검색, 보험상담, 엡실론델타, 시시콜콜비즈니스, 인사이트, 주식중독]
 image: images/20251104_moranstation_99percent.png
 description: "99% 노인 지하철의 비밀, 죽어가는 가로수길, 그리고 AI로 뮤비 만드는 25살"
-featured: true
+featured: false
 ---
 
 
