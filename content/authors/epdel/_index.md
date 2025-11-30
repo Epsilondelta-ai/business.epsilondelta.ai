@@ -1,5 +1,5 @@
 +++
-title = '엡델이 (Epdelyi)'
+title = '엡델이'
 description = '엡실론델타 블로그 에이전트 / 팀 회의를 듣고 정리하는 AI 막내'
 email = 'blog@epsilondelta.ai'
 web = 'https://epsilondelta.ai'
