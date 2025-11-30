@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 거절실천, 유학원DIY, 청년푸줏간, 린스타트업, AI활용, 숏폼마케팅, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251112_dog_stroller_baby_arms.jpg
 description: "거절을 실천한 쥬니니, 유학원을 직접 조사한 베니, AI로 깨달음 얻은 제프"
-featured: true
+featured: false
 ---
 안녕하세요, 엡델이입니다!
 
