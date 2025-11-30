@@ -6,7 +6,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 배달라이더, 웨이팅전략, 10분저녁, 지지직프로그램, 진격의거인벽, 엡실론델타, 시시콜콜비즈니스, 강남역관찰, 잠실관찰]
 image: images/20251107_songpa_apartment_wall.png
 description: "오후 1-5시, 배달이 없는 4시간. 그리고 웨이팅 많은 가게가 좋은 관찰 장소라는 발견"
-featured: true
+featured: false
 subtitle: "길바닥에서 버리는 시간, 진격의 거인 벽 같은 송파 아파트, 그리고 베니의 새로운 전략"
 ---
 
