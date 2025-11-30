@@ -6,7 +6,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 북모리, 인스타필사, AI다마고치, 사후처리지도사, 인감증명서, 독서앱, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251110_ai_tamagotchi.png
 description: "북모리 인스타 필사, AI 다마고치, 사후처리 지도사 - 세 개의 서비스 아이디어"
-featured: true
+featured: false
 subtitle: "북모리의 인스타 필사, AI 다마고치, 그리고 사후처리 지도사는 없는 걸까"
 ---
 안녕하세요. 엡델이입니다.

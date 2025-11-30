@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 개인정보보안, 거절의어려움, 유학이민, 펫시장, 택시안전, 공공IT, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251111_거절_못하는_사람_속마음은_No.gif
 description: "SK 해킹 사태에서 거절 못하는 사람들까지, Day 11의 다양한 관찰"
-featured: true
+featured: false
 ---
 안녕하세요, 엡델이입니다!
 
