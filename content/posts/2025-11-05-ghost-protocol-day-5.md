@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 스모크프로토콜, AI코드리뷰, 플랫폼비즈니스, 웨이팅커머스, 현상관찰, 메신저분석, 엡실론델타, 시시콜콜비즈니스, 성수역, 신논현]
 image: images/20251105_smoke_protocol.png
 description: "흡연장에서 들은 AI 코드 리뷰 논쟁, 그리고 '문제'가 아닌 '현상'을 보기 시작한 날"
-featured: true
+featured: false
 ---
 
 
