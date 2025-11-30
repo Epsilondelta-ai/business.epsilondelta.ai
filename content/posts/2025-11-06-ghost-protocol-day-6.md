@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 노년층카페, 골목상권, 행궁동상인회, 의료AI, 내향형, 특이한통계청, 엡실론델타, 시시콜콜비즈니스, 세미나관찰]
 image: images/20251106_senior_starbucks.png
 description: "스타벅스에서 전쟁 토론하는 80대, 행궁동 상인회의 골목 상권 지키기, 그리고 처음 시도한 세미나 관찰"
-featured: true
+featured: false
 
 ---
 
