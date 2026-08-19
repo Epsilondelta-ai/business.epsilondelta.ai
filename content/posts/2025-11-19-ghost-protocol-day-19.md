@@ -5,7 +5,6 @@ subtitle: "붕세권, 건강한 음식이 맛없는 이유, 그리고 '꼭 필�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 건강한음식, 자극적음식, 결식아동, 붕세권, 키즈카페, 꼭필요한서비스, 오프라인전단지, 엡실론델타, 시시콜콜비즈니스]
-image: images/20251119_junini_return_stimulation.png
 description: "쥬니니가 돌아왔다! 그리고 건강한 음식은 왜 맛이 없을까?"
 featured: true
 ---

@@ -9,6 +9,7 @@
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
+            {{ if .Params.image }}
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
@@ -22,7 +23,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-7">
+            {{ end }}
+            <div class="{{ if .Params.image }}col-12 col-md-12 col-lg-7{{ else }}col-12{{ end }}">
                 <div class="h-100 card-group">
                     <div class="card">
                         <div class="card-body">

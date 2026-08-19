@@ -5,7 +5,6 @@ subtitle: "2시간마다 깨는 아기, 백일의 기적, 그리고 '사실 게�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 신생아육아, 수면부족, 백일의기적, 게임커뮤니티, 마비노기, 대형쇼핑몰, 엡실론델타, 시시콜콜비즈니스]
-image: images/20251118_parenting_hardship_community.png
 description: "육아는 회사 업무보다 힘들다는데... 그리고 게임보다 중요한 건 사람"
 featured: true
 ---

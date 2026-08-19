@@ -5,7 +5,6 @@ subtitle: "창업자들의 영감 장소 인사동, 유튜브 공감 콘텐츠, 
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 인사동관찰, 유튜브분석, 공감콘텐츠, 성인친구만들기, 조언무시패턴, 성경AI, 엡실론델타, 시시콜콜비즈니스]
-image: images/20251117_insadong_connection.png
 description: "싸이월드와 토스 창업자가 영감 받은 인사동, 그리고 우리가 찾은 것들"
 featured: false
 ---
