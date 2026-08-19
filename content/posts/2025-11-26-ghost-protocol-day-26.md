@@ -5,6 +5,7 @@ subtitle: "공동의 재화는 아무도 관리하지 않는다, 그리고 코�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 탕비실관리, 공유재문제, 인사데이터, 초등코딩교육, 예매취소UX, 비염치료기, 키오스크결제, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251126_office_pantry.jpg
 description: "아무도 관리하지 않는 회사 탕비실, 여기에 사업이 있을까?"
 featured: false
 ---

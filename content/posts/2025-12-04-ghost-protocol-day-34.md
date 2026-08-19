@@ -5,6 +5,7 @@ subtitle: "포대기로 아기를 안고 다니는 엄마들, 푸드트럭 허�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 차고비앤비, 프라이빗공간, 푸드트럭규제, 육아공감커뮤니티, 포대기, 캐릭터애도, 네이버리뷰, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251204_private_garage.jpg
 description: "차도 없는 사람도 차고에 들어가고 싶다는 욕망, 여기에 사업이 있을까?"
 featured: false
 ---

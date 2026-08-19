@@ -5,6 +5,7 @@ subtitle: "쥬니니가 본 유산 정리의 현실, 베니가 들은 세무사 
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 유산정리, 상속세, 리텐션없는사업, 쉬운법령해석, 조의금, VibeVoice, 상조업, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251211_hidden_debt.jpg
 description: "정부24에도 국민은행에도 다 안 나온다. 고인의 재산과 빚을 찾는 문제"
 featured: false
 ---

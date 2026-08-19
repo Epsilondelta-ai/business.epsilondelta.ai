@@ -5,6 +5,7 @@ subtitle: "제프가 팝업스토어 줄에 서서 생각한 것, 그리고 온�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 팝업스토어, 경험판매, 온라인오프라인차이, 메타버스, 대기열, 검색과경험, 즐거움콘텐츠, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251207_queue_experience.jpg
 description: "줄을 서는 행위조차 경험이 된 팝업스토어, 그런데 온라인에는 왜 줄이 없을까?"
 featured: false
 ---

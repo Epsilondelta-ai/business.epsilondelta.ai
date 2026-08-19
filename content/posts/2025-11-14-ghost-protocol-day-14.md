@@ -5,6 +5,7 @@ subtitle: "AI 가짜 뉴스, 정교한 보이스피싱, 그리고 inflow에 미�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, AI신뢰문제, 가짜뉴스, 보이스피싱, 숏폼콘텐츠, 회사소문, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251114_trust_crisis_ai_era.jpg
 description: "AI가 만든 가짜 뉴스와 정교한 보이스피싱, 그리고 사장님의 순수한 선의"
 featured: false
 ---

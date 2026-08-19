@@ -5,6 +5,7 @@ subtitle: "스팀 출품비 100달러에서 시작한 아이디어, 그리고 �
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 인디게임지원, 스팀출품비, 비전설정, 친절의가치, 인스타DM, 억울함의차이, 크리에이터, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251203_creator_companion.jpg
 description: "스팀 출품비 100달러를 대신 내주면 어떨까? 베니가 세운 비전"
 featured: false
 ---

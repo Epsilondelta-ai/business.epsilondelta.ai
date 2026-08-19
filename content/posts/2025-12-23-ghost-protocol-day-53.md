@@ -5,6 +5,7 @@ subtitle: "쥬니니가 직접 물어보고 확인한 병원 전산의 진짜 �
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 병원전산, 의료소프트웨어, 개인정보와UX, 택시수급, 버스대절아이디어, 문진중복, 현장검증, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251223_hospital_paper.jpg
 description: "환자의 개인정보 때문에 의도적으로 불편하게 만들어져 있다는 답을 직접 듣고 왔어요"
 featured: false
 ---

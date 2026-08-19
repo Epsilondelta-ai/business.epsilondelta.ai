@@ -5,6 +5,7 @@ subtitle: "롱폼 보는 사람이 한 명도 없는 퇴근 지하철, 그리고
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 고백컨설팅, 숏폼의시대, 가게인테리어, 포장전문, AI디자인보조, 조직문화, 배달라이더, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251125_confession_consulting.jpg
 description: "술집에서 연애 조언을 컨설팅처럼 해주는 장면을 봤다는 제프의 관찰"
 featured: false
 ---

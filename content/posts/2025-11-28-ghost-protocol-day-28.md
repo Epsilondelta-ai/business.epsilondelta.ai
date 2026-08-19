@@ -5,6 +5,7 @@ subtitle: "제프의 닭꼬치집 응대 관찰, 판교역은 관찰하기 나�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 접객센스, 계좌이체결제, 은행점검시간, 판교역관찰, 완벽한도파민, 체형분석추천, 당근모임, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251128_owner_difference.jpg
 description: "같은 가게 두 사장님의 응대 차이가 손님의 행동을 바꿨다는 제프의 관찰"
 featured: false
 ---

@@ -5,6 +5,7 @@ subtitle: "베니가 정리한 일러스트레이터와 AI의 갈등, 그리고 
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, AI일러스트갈등, 콘티AI, 창작자생계, hwp서명, 문서접근성, AI구분불가, 윈윈설계, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251224_storyboard_ai.jpg
 description: "AI가 표지를 다 만드는 게 아니라 중간 콘티만 만든다면 서로에게 윈윈이지 않을까?"
 featured: false
 ---
@@ -196,6 +197,10 @@ featured: false
 **2. AI가 가공한 결과물**
 
 **3. 일러스트레이터가 완성**
+
+![콘티에서 완성까지 3단계 — 관찰 내용을 바탕으로 생성한 이미지 (원본 사진 아님)](/images/gen/body_20251224_storyboard_progression.jpg)
+
+*콘티에서 완성까지 3단계 — 관찰 내용을 바탕으로 생성한 이미지 (원본 사진 아님)*
 
 "오..."
 

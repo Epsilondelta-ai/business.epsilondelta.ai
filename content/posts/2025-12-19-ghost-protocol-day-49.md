@@ -5,6 +5,7 @@ subtitle: "쥬니니가 정자동에서 본 창문의 딜레마, 베니의 프�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 창문의딜레마, 프롬프트관리, 프롬프트인젝션, 텀블러시장, 만원전철, 전화기피, 카페거리, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251219_window_dilemma.jpg
 description: "창문을 두면 프라이버시를 잃고, 안 두면 답답하다. 우리 삶에도 그런 문제가 많지 않을까"
 featured: false
 ---

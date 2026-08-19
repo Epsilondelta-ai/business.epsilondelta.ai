@@ -5,6 +5,7 @@ subtitle: "베니가 당근 모임을 파고들었어요. 조용한 미식가 �
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 당근모임, 조용한미식가, 혼밥가격구조, 반려동물재입양, 주차영수증공유, 공동구독, 애기친구, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251218_taking_it_easy.jpg
 description: "'열심히 사는 게 이제는 귀찮다. 그냥 맘편히가 목표'라는 모임을 발견했어요"
 featured: false
 ---

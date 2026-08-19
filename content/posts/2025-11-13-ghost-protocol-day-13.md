@@ -5,6 +5,7 @@ subtitle: "이력서 솔루션은 왜 안 될까, 도장의 생존 전략, 그�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 이력서작성, 도장경영난, 맥락이해, 청년푸줏간, 티케팅문제, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251113_solution_paradox.jpg
 description: "솔루션은 많은데 왜 문제는 그대로일까? Day 13의 발견들"
 featured: false
 ---

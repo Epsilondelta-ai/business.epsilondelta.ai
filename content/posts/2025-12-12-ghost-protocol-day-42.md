@@ -5,6 +5,7 @@ subtitle: "베니가 발견한 오픈소스의 진짜 진입장벽, 그리고 �
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, API키장벽, 오픈소스온보딩, TrendRadar, 회계아웃소싱, 다학문결합, 맛집데이터베이스, 데일리브리핑, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251212_api_key_wall.jpg
 description: "설치까지 다 괜찮은데 API 키를 넣으라고 하면 식어버린다는 베니의 발견"
 featured: false
 ---

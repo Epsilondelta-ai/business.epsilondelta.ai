@@ -5,6 +5,7 @@ subtitle: "베니의 발상 전환 '인간 산책', 제프의 AI FOMO, 그리고
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 인간산책, AIFOMO, 감성학원, 국민체력100, 약국영업시간, 게임조언AI, 전단지효율, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251127_human_walk.jpg
 description: "왜 강아지 산책만 있고 인간 산책은 없을까? 베니의 발상 전환"
 featured: false
 ---

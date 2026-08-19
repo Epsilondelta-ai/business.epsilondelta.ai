@@ -5,6 +5,7 @@ subtitle: "베니의 충전식 세금 결제 아이디어, 아이가 옮긴 말 
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 세금달력, 충전식세금결제, 자율주행책임, 전달오류, 병원수기접수, 증권계좌, 프랜차이즈카페, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251222_tax_time.jpg
 description: "충전해놓을 테니까 알아서 세금 가져가라. 세금 계산에 쓰는 시간도 세금이다"
 featured: false
 ---

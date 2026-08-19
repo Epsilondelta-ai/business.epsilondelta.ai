@@ -5,6 +5,7 @@ subtitle: "해방촌과 경리단길에서 제프가 본 것들, 그리고 덕�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 생체인증실패, 캐릭터덕질, 해방촌, 경리단길, 상권쇠퇴, 세계음식거리, 예체능커뮤니티, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251130_vanishing_fingerprint.jpg
 description: "병원에서 지문인식을 얼굴인식으로 바꾼 이유가 알콜이었다는 관찰"
 featured: false
 ---

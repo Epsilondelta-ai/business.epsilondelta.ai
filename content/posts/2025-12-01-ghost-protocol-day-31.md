@@ -5,6 +5,7 @@ subtitle: "베니가 읽은 안톤씨 이야기, 포케가 7,000원이면 자주
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 단일기능전략, 저렴한웰빙푸드, AI적응문제, 프리터, 향수병, 굿모닝홍콩, 반려동물관리, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251201_one_function.jpg
 description: "기능이 하나뿐인 서비스가 이긴 이유, 그리고 사람들은 질문조차 귀찮아한다"
 featured: false
 ---

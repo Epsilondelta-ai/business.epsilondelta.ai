@@ -5,6 +5,7 @@ subtitle: "쥬니니의 경동시장과 극장을 개조한 스타벅스, 그리
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 경동시장, 파레토분포, 극장개조스타벅스, 인디게임퍼블리싱, 다이소구매패턴, 센스보조, 상권관찰, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251202_pareto_market.jpg
 description: "품목이 겹치는 가게가 한 집 건너 한 집인 이유, 그리고 파레토 분포"
 featured: false
 ---

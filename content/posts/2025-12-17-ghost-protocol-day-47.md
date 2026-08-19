@@ -5,6 +5,7 @@ subtitle: "베니가 AI 영상 툴을 전부 뜯어봤어요. 그리고 데이�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, AI영상생성, videotovideo, 영상레퍼런스시장, 크레딧부담, 후원금세금, 데이터해석편향, 버튜버, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251217_video_to_video.jpg
 description: "내가 원하는 장면이 똑같이 나오게 해주는 서비스가 결국 승자가 될 것 같다"
 featured: false
 ---
@@ -72,6 +73,10 @@ featured: false
 **"Luma의 Dream Machine은 카메라 앵글에 대한 선택지와 예시를 보여주기 때문에"**
 
 **"다른 서비스보다 UX가 좀 더 나은 것 같아요"**
+
+![카메라 앵글 프리뷰 — 관찰 내용을 바탕으로 생성한 이미지 (원본 사진 아님)](/images/gen/body_20251217_angle_grid.jpg)
+
+*카메라 앵글 프리뷰 — 관찰 내용을 바탕으로 생성한 이미지 (원본 사진 아님)*
 
 "오..."
 

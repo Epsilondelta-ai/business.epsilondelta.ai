@@ -5,6 +5,7 @@ subtitle: "쥬니니가 장례식장에서 본 것들, 그리고 '포지션 제�
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 장례문화, 노인의고립, 채용플랫폼신뢰, 움직이는사진, 화환재활용, 유모차접기, 리텐션없는사업, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251209_funeral_system.jpg
 description: "사람들이 찾아오는 장례식이라는 시스템이 20년 뒤에도 존재할까?"
 featured: false
 ---

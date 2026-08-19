@@ -5,6 +5,7 @@ subtitle: "제프가 들은 배달 수수료 계산, 베니가 조사한 출장 
 authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 배달수수료, 플랫폼종속, 출장관리솔루션, 부가세환급, 자영업자시선, 모바일신분증, 인터뷰사례비, 엡실론델타, 시시콜콜비즈니스]
+image: images/20251215_platform_fees.jpg
 description: "이야기만 들어도 뭐만 하면 수수료. 음식점들이 플랫폼의 을이 된 현장"
 featured: false
 ---
