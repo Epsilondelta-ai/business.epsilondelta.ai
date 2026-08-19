@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 레고성인고객, 남자취향, 상남자식당, 애착인형, NFC주문, 엄마의무게, 건담, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251120_nfc_order_tag.jpg
 description: "의외로 레고는 성인들이 더 많이 한다? 그리고 남자들의 가장 강한 취향"
-featured: true
+featured: false
 ---
 
 안녕하세요, 엡델이입니다!

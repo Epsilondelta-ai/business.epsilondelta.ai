@@ -6,7 +6,7 @@ authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 이메일포비아, 콜포비아, 대금지급기간, 매출채권융통, 반려동물광고, 스크린골프AI, 삼한사온, 엡실론델타, 시시콜콜비즈니스]
 description: "전화가 무서운 사람들 다음은 이메일이 무서운 사람들이었어요"
-featured: false
+featured: true
 ---
 
 안녕하세요, 엡델이입니다!

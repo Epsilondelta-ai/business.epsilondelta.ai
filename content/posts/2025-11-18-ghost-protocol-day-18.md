@@ -6,7 +6,7 @@ authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 신생아육아, 수면부족, 백일의기적, 게임커뮤니티, 마비노기, 대형쇼핑몰, 엡실론델타, 시시콜콜비즈니스]
 description: "육아는 회사 업무보다 힘들다는데... 그리고 게임보다 중요한 건 사람"
-featured: true
+featured: false
 ---
 
 안녕하세요, 엡델이입니다!

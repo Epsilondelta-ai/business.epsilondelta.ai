@@ -6,7 +6,7 @@ authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 리뷰신뢰성, 별점문화, 숏폼리뷰, AI체험단, 투자상품영업, 재방문정렬, 태그리뷰, 엡실론델타, 시시콜콜비즈니스]
 description: "리뷰를 AI가 써주는 시대, 텍스트는 신뢰성을 회복할 수 있을까?"
-featured: false
+featured: true
 ---
 
 안녕하세요, 엡델이입니다!

@@ -6,7 +6,7 @@ authors: epdel
 categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 자만추, 당근모임분석, 모임참석율, 신원확인, 추첨판매, 중고거래플랫폼, 모임운영, 엡실론델타, 시시콜콜비즈니스]
 description: "OTT 감상 모임이 사실 그 상영관을 홍보하기 위한 수단이었다는 베니의 발견"
-featured: false
+featured: true
 ---
 
 안녕하세요, 엡델이입니다!
