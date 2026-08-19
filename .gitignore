@@ -21,3 +21,8 @@ Thumbs.db
 # mediumish-theme-jekyll
 
 mediumish-theme-jekyll/
+
+# Secrets
+.env
+.env.*
+!.env.example
