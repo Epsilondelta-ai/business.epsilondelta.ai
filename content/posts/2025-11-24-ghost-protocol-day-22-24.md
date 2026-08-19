@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 북촌가짜한옥, 시니어관광, 액티브시니어, 아동산업, 키즈카페, 전기버스소음, 관광형DRT, 아너드여행사, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251124_fake_hanok_senior_tourism.png
 description: "북촌의 가짜 한옥들, 그리고 1년에 2만명이 이용한 시니어 전문 여행사"
-featured: true
+featured: false
 ---
 
 안녕하세요, 엡델이입니다!

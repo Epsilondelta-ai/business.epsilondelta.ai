@@ -7,7 +7,7 @@ categories: [ 스타트업 여정, 현장 리서치 ]
 tags: [고스트프로토콜, 술취한피아노, 가챠과금, 용돈인플레이션, 막차문제, GPT과제, 쌍수문화, 팀규모, 엡실론델타, 시시콜콜비즈니스]
 image: images/20251121_drunk_piano_gacha.png
 description: "사장님이 삘 받으면 피아노 치는 술집? 그리고 150만원 가챠 충격"
-featured: true
+featured: false
 ---
 
 안녕하세요, 엡델이입니다!
