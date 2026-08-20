@@ -26,3 +26,4 @@ mediumish-theme-jekyll/
 .env
 .env.*
 !.env.example
+.gstack/

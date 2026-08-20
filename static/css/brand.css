@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Brand page (about) — EpsilonDelta
+   Scoped under .brand-page / body.layout-brand so it never touches post styles.
+
+   Palette: brand green #1AFF40 is a neon accent (1.36:1 on white — graphics
+   only, never text). Text green is darkened to #0A7A2B (5.48:1, AA body).
+   Display type mirrors the wordmark's serif; the mark itself is pixel-art.
+   ========================================================================== */
+
+.brand-page {
+  --ed-green: #1aff40;
+  --ed-green-soft: rgba(26, 255, 64, .16);
+  --ed-green-text: #0a7a2b;
+  --ed-ink: #0d1210;
+  --ed-body: #464f4b;
+  --ed-mute: #7b857f;
+  --ed-line: #e6eae7;
+  --ed-wash: #f6f8f7;
+  --ed-serif: "Merriweather", Georgia, "Times New Roman", serif;
+
+  color: var(--ed-body);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  word-break: keep-all;
+}
+
+/* the theme prints the blog title above every page; the brand page owns its hero */
+body.layout-brand .mainheading { display: none; }
+body.layout-brand .main-content { margin-top: 0; }
+
+.brand-page h1,
+.brand-page h2,
+.brand-page h3 { color: var(--ed-ink); letter-spacing: -0.02em; }
+
+/* --- section rhythm ---------------------------------------------------- */
+.brand-section { padding: 4.5rem 0; border-top: 1px solid var(--ed-line); }
+.brand-eyebrow {
+  display: inline-flex; align-items: center; gap: .6rem;
+  font-size: .75rem; font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ed-green-text); margin-bottom: 1rem;
+}
+.brand-eyebrow::before {
+  content: ""; width: 6px; height: 6px; background: var(--ed-green);
+  display: inline-block;             /* square, echoing the pixel mark */
+}
+.brand-section > h2 {
+  font-family: var(--ed-serif);
+  font-size: 1.85rem; font-weight: 700; line-height: 1.4; margin: 0 0 1.75rem;
+}
+.brand-lede { font-size: 1.125rem; margin: 0 0 2rem; max-width: 44rem; }
+
+/* --- hero -------------------------------------------------------------- */
+.brand-hero { padding: 3.5rem 0 4.25rem; text-align: center; }
+.brand-hero .brand-symbol {
+  width: 92px; height: auto; display: block; margin: 0 auto 2.25rem;
+  image-rendering: pixelated;        /* keep the pixel mark crisp */
+}
+.brand-hero h1 {
+  font-family: var(--ed-serif);
+  font-size: 2.15rem; font-weight: 700; line-height: 1.45; margin: 0 0 1.25rem;
+}
+.brand-hero .brand-sub { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 34rem; }
+.brand-hero .brand-wordmark { width: 268px; height: auto; opacity: .9; }
+
+/* --- pull quote / definition ------------------------------------------- */
+.brand-def {
+  background: var(--ed-wash);
+  border-left: 3px solid var(--ed-green);
+  padding: 1.75rem 1.9rem; margin: 0 0 2rem;
+}
+.brand-def p { margin: 0 0 .85rem; }
+.brand-def p:last-child { margin-bottom: 0; }
+.brand-math { font-family: var(--ed-serif); font-style: italic; color: var(--ed-ink); }
+
+/* neon marker for the two key terms */
+.brand-term {
+  font-weight: 700; color: var(--ed-ink);
+  background: linear-gradient(transparent 62%, var(--ed-green-soft) 62%);
+}
+
+/* --- manifesto --------------------------------------------------------- */
+.brand-manifesto p { margin: 0 0 1.35rem; font-size: 1.125rem; line-height: 1.9; }
+.brand-manifesto p.lead-line {
+  font-family: var(--ed-serif);
+  font-size: 1.35rem; font-weight: 700; color: var(--ed-ink); line-height: 1.65;
+}
+.brand-manifesto strong { color: var(--ed-ink); font-weight: 700; }
+.brand-close {
+  margin-top: 2.75rem; padding-top: 2.25rem;
+  border-top: 1px solid var(--ed-line); text-align: center;
+}
+.brand-close .kr {
+  font-family: var(--ed-serif);
+  font-size: 1.4rem; font-weight: 700; color: var(--ed-ink);
+  letter-spacing: -.02em; margin: 0 0 .6rem;
+}
+.brand-close .en {
+  font-family: var(--ed-serif); font-style: italic;
+  font-size: 1.0625rem; color: var(--ed-green-text); margin: 0;
+}
+
+/* --- what we do -------------------------------------------------------- */
+.brand-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.brand-card {
+  border: 1px solid var(--ed-line); padding: 1.7rem 1.5rem; background: #fff;
+  transition: border-color .18s ease, transform .18s ease;
+}
+.brand-card:hover { border-color: var(--ed-green); transform: translateY(-2px); }
+.brand-card .num {
+  display: inline-block; width: 8px; height: 8px;
+  background: var(--ed-green); margin-bottom: 1rem;
+}
+.brand-card h3 { font-size: 1.0625rem; font-weight: 700; margin: 0 0 .6rem; }
+.brand-card p { margin: 0; font-size: .9375rem; line-height: 1.75; }
+
+/* --- note -------------------------------------------------------------- */
+.brand-note { background: var(--ed-wash); padding: 1.75rem 1.9rem; }
+.brand-note p { margin: 0 0 .85rem; }
+.brand-note p:last-child { margin-bottom: 0; }
+
+/* --- contact ----------------------------------------------------------- */
+.brand-contact { text-align: center; }
+.brand-mailto {
+  display: inline-block; margin: .5rem 0 1.75rem;
+  font-family: var(--ed-serif);
+  font-size: 1.55rem; font-weight: 700; color: var(--ed-green-text);
+  border-bottom: 3px solid var(--ed-green); padding-bottom: 3px; word-break: break-all;
+}
+.brand-mailto:hover { color: var(--ed-ink); border-bottom-color: var(--ed-green-text); }
+.brand-meta {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: .5rem 2rem; font-size: .9375rem;
+}
+.brand-meta span { color: var(--ed-mute); }
+.brand-meta a { color: var(--ed-green-text); border-bottom: 1px solid var(--ed-line); }
+.brand-meta a:hover { color: var(--ed-ink); border-bottom-color: var(--ed-green); }
+
+/* --- responsive -------------------------------------------------------- */
+@media (max-width: 767px) {
+  .brand-section { padding: 3.25rem 0; }
+  .brand-hero { padding: 2.5rem 0 3rem; }
+  .brand-hero .brand-symbol { width: 68px; margin-bottom: 1.75rem; }
+  .brand-hero h1 { font-size: 1.6rem; }
+  .brand-hero .brand-wordmark { width: 208px; }
+  .brand-section > h2 { font-size: 1.45rem; }
+  .brand-grid { grid-template-columns: 1fr; }
+  .brand-def, .brand-note { padding: 1.35rem 1.4rem; }
+  .brand-manifesto p { font-size: 1.0625rem; }
+  .brand-manifesto p.lead-line { font-size: 1.15rem; }
+  .brand-close .kr { font-size: 1.15rem; }
+  .brand-mailto { font-size: 1.15rem; }
+}
