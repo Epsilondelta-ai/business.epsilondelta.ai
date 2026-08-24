@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+<title>{{ .Permalink }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+{{ partial "gtm-head.html" . }}
+</head>
+<body>
+{{ partial "gtm-body.html" . }}
+</body>
+</html>
