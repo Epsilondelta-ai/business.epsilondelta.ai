@@ -12,7 +12,7 @@ A Hugo port of the popular Mediumish Jekyll theme - a Medium-styled responsive b
 - Pagination
 - Search functionality (Lunr.js)
 - Disqus comments
-- Google Analytics support
+- Google Tag Manager support
 - Syntax highlighting
 - Star ratings
 
@@ -136,4 +136,3 @@ This is a Hugo port of [Mediumish Jekyll Theme](https://github.com/wowthemesnet/
 ## License
 
 See LICENSE.txt
-

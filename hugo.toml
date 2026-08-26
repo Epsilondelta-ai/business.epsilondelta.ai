@@ -16,7 +16,6 @@ enableEmoji = true
   company = "주식회사 엡실론델타"
   
   # External Services
-  googleAnalytics = "G-XSNXBDSF2E"
   disqus = "business-epsilondelta"
   mailchimpList = "https://epsilondelta.us13.list-manage.com/subscribe/post?u=caa16af6fb5c7e40657e9e844&amp;id=7496bda80a&amp;f_id=0040f4e1f0"
   
@@ -70,4 +69,3 @@ enableEmoji = true
   name = "About"
   url = "/about"
   weight = 3
-
